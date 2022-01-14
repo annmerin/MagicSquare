@@ -10,7 +10,7 @@
 from oddNumberMagic import oddnumbermagic
 
 if __name__ == '__main__':
-    n = input("Enter any odd number: ")
-    oddnumbermagic(n)
+    size = input("Enter any odd number: ")
+    oddnumbermagic(size)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
