@@ -37,12 +37,29 @@ def oddnumbermagic(size):
         print(msquare)
         no += 1
         max -= 1
+        index_y -= 1
+        index_x += 1
+    if index_y == 0 and index_x < int(size) - 1 and msquare[index_y,index_x] != 0:
+        index_y += 2
+        index_x -= 1
+        print(index_y, index_x)
+        msquare[index_y, index_x] = no
+        print(msquare)
+        no += 1
+        max -= 1
+        index_y -= 1
+        index_x += 1
     else:
         print(index_y, index_x)
         msquare[index_y, index_x] = no
         print(msquare)
         no += 1
         max -= 1
+        index_y -= 1
+        index_x += 1
+
+
+
 
 
 
