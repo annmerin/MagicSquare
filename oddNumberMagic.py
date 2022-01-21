@@ -73,6 +73,10 @@ def oddnumbermagic(size):
             if max == 0:
                 break
     print(msquare)
+    print("sum diagonal 1",int(sum(np.fliplr(msquare).diagonal())))
+    print("sum diagonal 2",int(sum(np.flipud(msquare).diagonal())))
+    print("Sum of arr(axis = 0) : ", np.sum(msquare, axis=0))
+    print("Sum of arr(axis = 1) : ", np.sum(msquare, axis=1))
 
 
 
